@@ -43,7 +43,7 @@
 
  <!-- Hardware - display-commonsys-intf -->
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="LineageOS" revision="lineage-23.2"/>
-  <project path="hardware/mithorium/display/lineage-21.0-caf-msm8953/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="LineageOS" revision="lineage-23.2"/>/>
+  <project path="hardware/mithorium/display/lineage-21.0-caf-msm8953/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="LineageOS" revision="lineage-23.2"/>
 
  <!-- Hardware - LA.UM.8.6.2 -->
   <project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0"/>
