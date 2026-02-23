@@ -17,7 +17,7 @@
  <project path="kernel/xiaomi/mido/techpack/xiaomi-titanium"        name="kernel_techpack_xiaomi-titanium" remote="mido-nxt" revision="techpack/titanium/4.19/master"/>
  <project path="kernel/xiaomi/mido/techpack/audio-legacy"        name="kernel_techpack_audio-legacy" remote="mido-nxt" revision="audio/4.19/master"/>
 
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20.0" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20" />
 
  <!-- Hardware -->
   <project path="hardware/mithorium/common" name="android_hardware_mithorium_common" groups="device" remote="mi-thorium" revision="lineage">
