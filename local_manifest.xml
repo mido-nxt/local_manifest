@@ -44,7 +44,7 @@
 
  <!-- Hardware - LA.UM.9.6.3 -->
   <project path="hardware/mithorium/audio/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0/hal" name="android_hardware_qcom_audio_mithorium" groups="device" remote="alice" revision="mithorium/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0"/>
-  <project path="hardware/mithorium/media/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0/hal" name="android_hardware_qcom_display" groups="device" remote="LineageOS" revision="lineage-20.0-caf-msm8953"/>
+  <project path="hardware/mithorium/media/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0/hal" name="android_hardware_qcom_media_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0"/>
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0"/>
 
  <!-- Hardware - LineageOS (based on LA.UM.10.6.2 tags) -->
