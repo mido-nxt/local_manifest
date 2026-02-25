@@ -5,12 +5,11 @@
  <remote name="mido-nxt" fetch="https://github.com/mido-nxt" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
  <remote name="mi-thorium" fetch="https://github.com/Mi-Thorium" />
- <remote name="Zeelog" fetch="https://github.com/zeelog" />
  <remote name="alice" fetch="https://github.com/Mirai-Miscellaneous" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="mido-nxt" revision="mido-4.19-13" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Zeelog" revision="lineage-20.0" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="mido-nxt" revision="lineage-20.0" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido-4.19" remote="mido-nxt" revision="sixteen" />
  <project path="kernel/xiaomi/mido/arch/arm64/boot/dts/vendor-legacy"        name="kernel_devicetree_msm-4.19" remote="mido-nxt" revision="main"/>
  <project path="kernel/xiaomi/mido/drivers/staging/prima"        name="vendor_qcom_opensource_wlan_prima" remote="mido-nxt" revision="wlan/LA.UM.9.6.4/mithorium/master"/>
