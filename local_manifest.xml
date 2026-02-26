@@ -17,6 +17,8 @@
  <project path="kernel/xiaomi/mido/techpack/audio-legacy"        name="kernel_techpack_audio-legacy" remote="mido-nxt" revision="audio/4.19/master"/>
 
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20" />
+ <remove-project path="packages/apps/Trebuchet" />
+ <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="mido-nxt" revision="lineage-20.0" />
 
  <!-- Hardware -->
   <project path="hardware/mithorium/common" name="android_hardware_mithorium_common" groups="device" remote="mi-thorium" revision="lineage">
