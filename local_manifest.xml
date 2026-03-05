@@ -7,21 +7,21 @@
  <remote name="mi-thorium" fetch="https://github.com/Mi-Thorium" />
  
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="mido-nxt" revision="mido-4.19" />
- <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="fifteen" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido-4.19" remote="mido-nxt" revision="sixteen" />
- <project path="kernel/xiaomi/mido/arch/arm64/boot/dts/vendor-legacy"        name="kernel_devicetree_msm-4.19" remote="mido-nxt" revision="main"/>
- <project path="kernel/xiaomi/mido/drivers/staging/prima"        name="vendor_qcom_opensource_wlan_prima" remote="mido-nxt" revision="wlan/LA.UM.9.6.4/mithorium/master"/>
- <project path="kernel/xiaomi/mido/techpack/xiaomi-titanium"        name="kernel_techpack_xiaomi-titanium" remote="mido-nxt" revision="techpack/titanium/4.19/master"/>
- <project path="kernel/xiaomi/mido/techpack/audio-legacy"        name="kernel_techpack_audio-legacy" remote="mido-nxt" revision="audio/4.19/master"/>
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="mido-nxt" revision="mido-4.19" clone-depth="1" />
+ <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="fifteen" clone-depth="1" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido-4.19" remote="mido-nxt" revision="sixteen" clone-depth="1" />
+ <project path="kernel/xiaomi/mido/arch/arm64/boot/dts/vendor-legacy"        name="kernel_devicetree_msm-4.19" remote="mido-nxt" revision="main" clone-depth="1" />
+ <project path="kernel/xiaomi/mido/drivers/staging/prima"        name="vendor_qcom_opensource_wlan_prima" remote="mido-nxt" revision="wlan/LA.UM.9.6.4/mithorium/master" clone-depth="1" />
+ <project path="kernel/xiaomi/mido/techpack/xiaomi-titanium"        name="kernel_techpack_xiaomi-titanium" remote="mido-nxt" revision="techpack/titanium/4.19/master" clone-depth="1" />
+ <project path="kernel/xiaomi/mido/techpack/audio-legacy"        name="kernel_techpack_audio-legacy" remote="mido-nxt" revision="audio/4.19/master" clone-depth="1" />
 
- <remove-project path="hardware/qcom-caf/msm8953/audio" />
+ <!--<remove-project path="hardware/qcom-caf/msm8953/audio" />
  <remove-project path="hardware/qcom-caf/msm8953/media" />
  <remove-project path="hardware/qcom-caf/msm8953/display" />
  <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio_mithorium" remote="mido-nxt" revision="mithorium/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0"/>
  <project path="hardware/qcom-caf/msm8953/media" name="android_hardware_qcom_media_mithorium" remote="mido-nxt" revision="mithorium/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0"/>
- <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom_display_mithorium" remote="mido-nxt" revision="mithorium/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0"/>
+ <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom_display_mithorium" remote="mido-nxt" revision="mithorium/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0"/>-->
  
 
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.1" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" clone-depth="1" />
 </manifest>
