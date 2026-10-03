@@ -8,7 +8,7 @@
  <remote name="alice" fetch="https://github.com/Mirai-Miscellaneous" />
  
  <!--Trees-->
- <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="mido-nxt" revision="mido-4.19" clone-depth="1" />
+ <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="mido-nxt" revision="mido-4.19-16" clone-depth="1" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="mido-nxt" revision="mido/latest" clone-depth="1" />
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido-4.19" remote="mido-nxt" revision="mido/latest" clone-depth="1" />
  <!-- <project path="kernel/xiaomi/mido/arch/arm64/boot/dts/vendor-legacy"        name="kernel_devicetree_msm-4.19" remote="mido-nxt" revision="main" clone-depth="1" />
